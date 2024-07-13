@@ -1,0 +1,46 @@
+site_name: Security
+
+repo_url: https://github.com/Vasanthabalaji01/Security
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: red
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  logo: img/Mr.Cloudexplorer_logo.png
+  favicon: img/Mr.Cloudexplorer_logo.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - header.autohide
+    - navigation.tabs
+
+nav:
+  - Home: index.md
+  - Index: intro.md
+  - CCNA:
+    - Intro: CCNA/ccna.md
+  - C|EH:
+    - Intro: CEH/ceh.md
+  - C|HFI:
+    - Intro: CHFI/chfi.md
+  - eJPT:
+    - Intro: eJPT/ejpt.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Vasanthabalaji01
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/vasanthabalaji
+    - icon: fontawesome/brands/instagram 
+      link: https://www.instagram.com/mrcloudexplorer
